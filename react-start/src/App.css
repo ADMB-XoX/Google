@@ -1,0 +1,111 @@
+.body{
+    width: 100vw;
+    height: 100vh;
+    background-color: #202124;
+    color: #e8e8e8
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 6px;
+}
+
+.header1 ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.header1 ul li{
+    font-size: 14px;
+    margin: 0px 5px 0px 15px;
+    list-style: none;
+    padding: 5px;
+}
+
+.header2 ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.header2 ul li{
+    font-size: 14px;
+    margin: 0px 5px 0px 15px;
+    list-style: none;
+    padding: 5px;
+}
+
+.header2 ul li .dots{
+    width: 20px;
+    height: 20px;
+}
+
+.center {
+    margin-top: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.center .logo{
+    width: 272px;
+    height: 92px;
+    margin-bottom: 30px;
+}
+
+.center .search {
+    width: 583px;
+    height: 46px;
+    background-color: #727278a7;;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.center .search .glass{
+    margin-top: 11px;
+    margin-left: 10px; 
+    width: 22px;
+    height: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center .search .keyboard{
+    margin: 11px;
+    height: 24px;
+    width: 24px;
+}
+
+.center .search .mike{
+    margin: 11px;
+    height: 24px;
+    width: 24px;
+}
+
+.center .search .camera{
+    margin: 11px;
+    height: 24px;
+    width: 24px;
+}
+
+.center .centerbutton {
+    display: flex;
+    margin: 5px;
+}
+
+.center .centerbutton .button {
+    border-radius: 4px;
+    margin: 11px 4px;
+    padding: 7px 16px;
+    border: 0.1px solid #303134;
+    background-color: #303134;
+    color: #e8eaed;
+    font-size: 14px;
+}
+
+.center .centerbutton .button:hover {
+    border: 0.1px solid rgb(89, 89, 89);
+}
